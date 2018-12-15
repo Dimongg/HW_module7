@@ -1,0 +1,24 @@
+.wrapper{
+    margin: 0;
+    padding: 0;
+
+}
+table{
+    text-align: center;
+    justify-content: space-between;
+    margin: auto;
+}
+caption{
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+}
+tr{
+    border: 5px;
+    border: 1px solid red;
+    border-collapse: separate;
+}
+tr, th, td, caption{
+    padding: 5px;
+    border: 1px dashed var(black);
+}
